@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/julian7/sensulib/sensuasset"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 // Download copies asset items locally, preparing for relocation

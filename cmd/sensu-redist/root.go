@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/julian7/sensu-asset-redistribute/redist"
+	"github.com/julian7/sensu-redist/redist"
 	"github.com/spf13/cobra"
 )
 
