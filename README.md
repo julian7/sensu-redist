@@ -21,7 +21,10 @@ Flags:
 Example:
 
 ```shell
-$ sensu-redist --source https://github.com/julian7/sensu-base-checks/releases/download/v0.2.2/sensu-base-checks-v0.2.2-asset.yml --target https://artifacts.example.com/sensu-base-checks/ --upload user@air-gapped.example.com:/var/www/public/sensu-base-checks
+$ sensu-redist \
+  --source https://github.com/julian7/sensu-base-checks/releases/download/v0.2.2/sensu-base-checks-v0.2.2-asset.yml \
+  --target https://artifacts.example.com/sensu-base-checks/ \
+  --upload user@air-gapped.example.com:/var/www/public/sensu-base-checks
 The asset is now available at https://artifacts.example.com/sensu-base-checks/sensu-base-checks-v0.2.2-asset.yml
 ```
 
