@@ -91,6 +91,10 @@ func (conf *redistConfig) Run(cmd *cobra.Command, args []string) error {
 		return err
 	}
 
+	if err := r.Sanity(); err != nil {
+		return err
+	}
+
 	if err := r.RelocateTo(conf.tarURL); err != nil {
 		return err
 	}

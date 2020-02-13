@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 Added:
 
+- SHA512 sanity checks
 - initial
 
 [Unreleased]: https://github.com/julian7/sensu-redist
